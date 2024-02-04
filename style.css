@@ -166,7 +166,8 @@ section {
 
 /* PROFILE SECTION */
 #mar{
-  margin-top: 200px;
+  margin-top: -50px;
+  
 }
 #profile {
   display: flex;
@@ -367,22 +368,25 @@ article .icon {
 
 /* PROJECTS SECTION */
 
-#pr{
-  padding-top: 250px;
+#pr {
+  /* padding-top: 10px; */
 }
+
 #projects {
   position: relative;
   padding-top: 70px;
- 
-} 
-#grid{
+}
+
+#grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns in each row */
-  grid-gap: 10px; /* Adjust the gap between items as needed */
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
 }
-#temprat{
-  height:270px
+
+#temprat {
+  height: 270px;
 }
+
 .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
@@ -404,12 +408,19 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+.icon.arrow {
+  cursor: pointer;
+  width: 50px;
+  height: auto;
+  margin-top: 20px;
+}
+
 /* CONTACT */
 #ctn{
-  padding-top: 380px;
+  padding-top: 50px;
 }
 #contact {
-  margin-top:420px ;
+  margin-top:20px ;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -449,7 +460,7 @@ article .icon {
 
 /* FOOTER SECTION */
 #ft{
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 footer {
@@ -494,7 +505,111 @@ footer p {
   border-radius: 50%;
 }
 
+#github {
+  /* background-color: #f9f9f9; */
+  padding: 40px;
+  text-align: center;
+  
+}
+#head{
+  text-align: center;
+}
+
+.github-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.github-card {
+  /* background-color: #fff; */
+  /* border: 1px solid #ddd; */
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.github-card h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.github-card p {
+  font-size: 16px;
+}
+
+.github-card a {
+  display: block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #0078d4; /* GitHub link color */
+}
+
+#githubPro{
+  height: 150px;
+  width: 70%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#gitt{
+  padding-top: 650px;
+  display: center;
+}
 
 
 
+#contactForm {
+  max-width: 400px;
+  width: 100%;
+  padding: 30px;
+  background-color: #eeebeb;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 50px auto;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #212223;
+  color: #b5b5b5;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#sub {
+  border-radius: 4px;
+  padding: 10px;
+  color: black;
+  background-color: #dbd2d2;
+  border: 1px solid rgb(42, 42, 42);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#sub:hover {
+  color: bisque;
+  background-color: rgb(53, 52, 51);
+}
+
+#name, #email, #subject, #message {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 0px;
+  font-size: 15px;
+}

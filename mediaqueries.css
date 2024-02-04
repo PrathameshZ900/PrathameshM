@@ -4,7 +4,7 @@
       margin-bottom: 6rem;
     }
     #about{
-      margin-top: 40px;
+      margin-top: -250px;
     }
     .about-containers {
       flex-wrap: wrap;
@@ -14,6 +14,10 @@
     #projects {
       height: fit-content;
       margin-top: 50px;
+    }
+
+    #gitt{
+      margin-top: -350px ;
     }
   }
   
@@ -52,6 +56,9 @@
     }
     .about-containers {
       margin-top: 0;
+    }
+    #grid {
+      grid-template-columns: 2fr; /* Change to 1 column for 600px and below */
     }
   }
   
@@ -110,5 +117,8 @@
     }
     .text-container {
       text-align: justify;
+    }
+    #grid {
+      grid-template-columns: 1fr; /* Change to 1 column for 600px and below */
     }
   }
