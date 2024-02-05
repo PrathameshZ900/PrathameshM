@@ -367,10 +367,17 @@ article .icon {
 }
 
 /* PROJECTS SECTION */
-
-#pr {
-  /* padding-top: 10px; */
+.Project-btn{
+  background-color: #f0dada;
+  color: #212223;
+  border-radius: 10px;
 }
+.Project-btn:hover{
+  background-color: black;
+  color: #f0dada;
+}
+
+
 
 #projects {
   position: relative;
@@ -414,6 +421,11 @@ article .icon {
   height: auto;
   margin-top: 20px;
 }
+
+#tempc{
+  font-size: 25px;
+}
+
 
 /* CONTACT */
 #ctn{
@@ -560,7 +572,7 @@ footer p {
   max-width: 400px;
   width: 100%;
   padding: 30px;
-  background-color: #eeebeb;
+  background-color: #f0dada;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   margin: 50px auto;
@@ -593,7 +605,7 @@ button {
   border-radius: 4px;
   padding: 10px;
   color: black;
-  background-color: #dbd2d2;
+  background-color: #e5a4a4;
   border: 1px solid rgb(42, 42, 42);
   display: flex;
   justify-content: center;

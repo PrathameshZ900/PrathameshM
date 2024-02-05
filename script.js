@@ -4,41 +4,8 @@ function toggleMenu() {
     menu.classList.toggle("open");
     icon.classList.toggle("open");
   }
-//   var typed = new Typed(".typing", {
-//     strings: ["Full Stack Developer", "Front-End Developer", "Coder", "Python Developer"],
-//     typeSpeed: 100,
-//     backSpeed: 60,
-//     loop: true
-// });
 
-// var typed1 = new Typed(".name", {
-//     strings: ["Prathamesh Magar"],
-//     typeSpeed: 100,
-//     backSpeed: 60,
-//     loop: true
-// });
-
-// var typed2 = new Typed("#full", {
-//     strings: ["👋 Hey I'm Prathamesh and"],
-//     typeSpeed: 80,
-//     backSpeed: 60,
-//     loop: true
-// });
-
-
-var swiper = new Swiper('.swiper-container', {
-  slidesPerView: 1,
-  spaceBetween: 30,
-  navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-  },
-  pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-  },
-});
-
+// 
 function sendMessage() {
     let name = document.getElementById("name").value;
     let email = document.getElementById("email").value;
