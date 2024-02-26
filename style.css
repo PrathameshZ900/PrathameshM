@@ -27,6 +27,18 @@ a,
 }
 
 /* DESKTOP NAV */
+#down{
+  background-color: #888888;
+  color: #ffcf7c;
+  font-weight: 800;
+
+}
+
+#down:hover{
+  color: rgb(255, 189, 189);
+  font-weight: 800;
+  background-color: #000000;
+}
 
 nav,
 .nav-links {
@@ -36,7 +48,7 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 10vh;
   background-color: rgb(237, 229, 229);
 }
 
@@ -49,25 +61,27 @@ nav {
 a {
   color: black;
   text-decoration: none;
-  text-decoration-color: rgb(183, 182, 182);
+  text-decoration-color: rgb(69, 241, 229);
 }
 
 a:hover {
-  color: grey;
+  color: rgb(143, 195, 255);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgb(223, 134, 255);
 }
 
 .logo {
   font-size: 2rem;
+  color: #ffcf7c;
+  font-weight: 500;
 
   
 }
 
 .logo:hover {
   cursor: default;
-  color: rgb(255, 182, 93);
+  color: rgb(255, 113, 85);
 }
 
 /* HAMBURGER MENU */
@@ -241,7 +255,14 @@ section {
   width: 8rem;
   border-radius: 2rem;
 }
+#opencv{
+  color: #353535;
+  font-weight: 900;
+}
 
+#opencv:hover{
+  color: rgba(255, 201, 179, 0.825);
+}
 .btn-color-1,
 .btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -424,7 +445,7 @@ article .icon {
 
 #tempc{
   font-size: 25px;
-}
+} 
 
 
 /* CONTACT */
@@ -508,7 +529,7 @@ footer p {
 }
 
 .social-links a:hover {
-  background-color: #fcabab;
+  background-color: #82ccc2;
 }
 
 .social-links img {
@@ -603,6 +624,7 @@ button {
 
 #sub {
   border-radius: 4px;
+  border: 0px;
   padding: 10px;
   color: black;
   background-color: #e5a4a4;
@@ -620,7 +642,7 @@ button {
 }
 
 #name, #email, #subject, #message {
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border: 0px;
   font-size: 15px;
