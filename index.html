@@ -610,7 +610,8 @@
       data-aos="fade-down"
       data-aos-easing="linear"
       data-aos-duration="1500">
-      <form>
+      <form onsubmit="sendMessage(); reset(); return false;">
+      <h2 >Get In Touch</h2>
         <label for="name">Name:</label>
         <input
           type="text"
@@ -629,13 +630,13 @@
           placeholder="Please enter your E-mail here..."
         />
 
-        <label for="subject">Subject:</label>
+        <label for="subject">Phone:</label>
         <input
           type="text"
           id="subject"
           name="subject"
           required
-          placeholder="Please enter your Subject here..."
+          placeholder="Please enter your Phone No. here..."
         />
 
         <label for="message">Message:</label>
